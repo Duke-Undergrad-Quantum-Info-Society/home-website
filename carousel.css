@@ -16,7 +16,7 @@ body {
 }
 
 .bg {
-  background-image: url("764.jpg");
+  background-image: url("./images/home_bg.jpg");
   background-size: cover;
   color: white;
   /* #FFFEDF */
