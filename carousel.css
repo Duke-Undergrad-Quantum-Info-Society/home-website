@@ -16,9 +16,10 @@ body {
 }
 
 .bg {
-  background-image: url("./images/home_bg.jpg");
+  /* background-image: url("./images/home_bg.jpg"); */
+  background-color: #0b0731;
   background-size: cover;
-  color: white;
+  color:whitesmoke;
   /* #FFFEDF */
 }
 
