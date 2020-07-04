@@ -23,6 +23,20 @@ body {
   /* #FFFEDF */
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0b0731;
+}
+
+.nav-pills, .nav-pills .show > .nav-link {
+  color: #0b0731;
+  background-color: #fff;
+}
+
+.nav-color {
+  color: #0b0731;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

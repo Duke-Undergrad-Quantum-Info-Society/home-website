@@ -69,8 +69,98 @@
   <p class="featurette-divider"></p>
 
   <div class="container">
-    <h2>Articles</h2>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link nav-color active" id="v-pills-earlyedu-tab" data-toggle="pill" href="#v-pills-earlyedu" role="tab" aria-controls="v-pills-earlyedu" aria-selected="true">Early Education</a>
+
+          <a class="nav-link nav-color" id="v-pills-general-tab" data-toggle="pill" href="#v-pills-general" role="tab" aria-controls="v-pills-general" aria-selected="false">General</a>
+
+          <a class="nav-link nav-color" id="v-pills-st-tab" data-toggle="pill" href="#v-pills-st" role="tab" aria-controls="v-pills-st" aria-selected="false">Special Topics</a>
+
+          <a class="nav-link nav-color" id="v-pills-program-tab" data-toggle="pill" href="#v-pills-program" role="tab" aria-controls="v-pills-program" aria-selected="false">Programming</a>
+
+          <a class="nav-link nav-color" id="v-pills-summer-tab" data-toggle="pill" href="#v-pills-summer" role="tab" aria-controls="v-pills-summer" aria-selected="false">Summer Enrichment</a>
+        </div>
+      </div>
+
+      <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-earlyedu" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <ul>
+              <li><a target="_blank" href="https://www.scottaaronson.com/writings/highschool.html">Quantum Computing for High School Students</a> (Scott Aaronson).</li>
+            </ul>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-general" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <h2>Introductory</h2>
+              <ul>
+                  <li><a target="_blank" href="http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf">Quantum Information and Quantum Computation</a> (Michael Nielsen & Issac Chuang).</li>
+                  <li><a target="_blank" href="http://staq.pratt.duke.edu/summer-school">STAQ Summer School</a>.</li>
+                  <li><a target="_blank" href="http://www.theory.caltech.edu/people/preskill/ph229/">Preskill’s Lecture Notes</a> (John Preskill).</li>
+                  <li><a target="_blank" href="https://www.edx.org/course/quantum-mechanics-and-quantum-computation">Quantum Mechanics and Quantum Computation</a> (Umesh Vazirani).</li>
+                  <li><a target="_blank" href="https://www.edx.org/course/quantum-information-science-i-part-1">Quantum Information Science I Part 1</a> (Issac Chuang & Peter Shor).</li>
+                  <li><a target="_blank" href="https://www.edx.org/course/quantum-information-science-i-part-2">Quantum Information Science I Part 2</a> (Issac Chuang & Peter Shor).</li>
+                  <li><a target="_blank" href="https://www.edx.org/course/quantum-information-science-i-part-3">Quantum Information Science I Part 3</a> (Issac Chuang & Peter Shor).</li>
+                  <li><a target="_blank" href="https://www.edx.org/course/introduction-to-quantum-technology">Introduction to Quantum Science & Technology</a> (Mahdi Hosseini).</li>
+                  <li><a target="_blank" href="https://www.edx.org/professional-certificate/delftx-quantum-computing-and-quantum-internet">Quantum Computing 101</a> (TU Delft).</li>
+              </ul>
+              <h2>Advanced</h2>
+                <ul>
+                    <li><a target="_blank" href="https://cs.uwaterloo.ca/~watrous/LectureNotes.html">John Watrous's Lecture Notes</a>.</li>
+                    <li><a target="_blank" href="https://www.edx.org/course/quantum-information-science-ii-advanced-quantum-al">Quantum Information Science II Advanced quantum algorithms and information theory</a> (Issac Chuang & Aram Harrow).</li>
+                    <li><a target="_blank" href="https://www.edx.org/course/quantum-information-science-ii-quantum-states-nois">Quantum Information Science II Quantum states, noise and error correction</a> (Issac Chuang & Aram Harrow).</li>
+                </ul>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-st" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <h2>Theory</h2>
+                <ul>
+                    <li><a target="_blank" href="https://arxiv.org/pdf/1907.11157.pdf">Quantum Error Correction: An Introductory Guide</a>.</li>
+                    <li><a target="_blank" href="https://www.cambridge.org/core/books/quantum-error-correction/B51E8333050A0F9A67363254DC1EA15A">Quantum Error Correction</a> (Daniel Lidar & Todd Brun).</li>
+                    <li><a target="_blank" href="https://www.edx.org/course/quantum-machine-learning">Quantum Machine Learning</a> (Peter Wittek).</li>
+                    <li><a target="_blank" href="https://www.edx.org/course/the-quantum-internet-and-quantum-computers-how-w-2">Quantum Internet and Quantum Computers</a> (TU Delft).</li>
+                </ul>
+                <h2>Experiment</h2>
+                  <ul>
+                      <li><a target="_blank" href="http://people.ee.duke.edu/~jungsang/ECE590_01/">Quantum Engineering with Atoms</a> (Jungsang Kim).</li>
+                      <li><a target="_blank" href="http://iontrap.umd.edu/resources-2/useful-references/">Trapped-ion Resources</a> (Chris Monroe).</li>
+                  </ul>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-program" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <ul>
+              <li><a target="_blank" href="https://qiskit.org/textbook/ch-prerequisites/qiskit.html">The Qiskit Textbook</a></li>
+              <li><a target="_blank" href="https://qiskit.org/documentation/install.html">Qiskit</a></li>
+              <li><a target="_blank" href="http://qutip.org">QuTiP</a></li>
+              <li><a target="_blank" href="https://q-ctrl.com/products/black-opal/">Black Opal</a></li>
+              <li><a target="_blank" href="https://m-labs.hk/artiq/manual/">ARTIQ</a></li>
+            </ul>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-summer" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <ul>
+              <li><a target="_blank" href="http://staq.pratt.duke.edu/summer-school">The STAQ Summer School</a></li>
+              <li><a target="_blank" href="https://www.ibm.com/quantum-computing/internship/qurip">IBM QURIP</a></li>
+              <li><a target="_blank" href="https://www.lanl.gov/projects/national-security-education-center/information-science-technology/summer-schools/quantumcomputing/index.php">LANL’s Quantum Computing Summer School</a></li>
+              <li><a target="_blank" href="https://uwaterloo.ca/institute-for-quantum-computing/programs">IQC at University of Waterloo Summer Programs</a></li>
+              <li><a target="_blank" href="http://sfp.caltech.edu/programs/surf">SURF/WAVE Caltech</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+    <!-- <h2>Articles</h2>
     <a target="_blank" href="https://arxiv.org/abs/1501.00011">Why now is the right time to study quantum computing?</a> Dec. 2014, by Aram Harrow, Associate Professor of Physics at MIT.
+    <br>
 
     <h2>Textbooks</h2>
     <em>Quantum Computation and Quantum Information</em>, by Michael Nielsen & Isaac Chuang, Cambridge University Press, 2010. An online version is <a target="_blank" href="https://find.library.duke.edu/catalog/DUKE004901607">available at Duke Library</a>. Some of the solutions can be found <a target="_blank" href="https://github.com/goropikari/SolutionQCQINielsenChuang">here [github:goropikari]</a> or <a target="_blank" href="https://serab.net/docs/qcqi/">here</a>.
@@ -80,17 +170,13 @@
         <li>Course website for Duke's <a target="_blank" href="http://people.ee.duke.edu/~jungsang/ECE523">Quantum Information Science (ECE 523/ PHY 627, Spring 2017)</a> by Professor Jungsang Kim. Complete lecture notes and homework (no solutions) are contained.</li>
         <li>edX course Quantum Information Science I, <a target="_blank" href="https://courses.edx.org/courses/course-v1:MITx+8.370.1x+1T2018/course/">Part 1 (MITx: 8.370.1x)</a>, <a target="_blank" href="https://courses.edx.org/courses/course-v1:MITx+8.370.2x+1T2018/course/">Part 2 (MITx: 8.370.2x)</a>, and <a target="_blank" href="https://courses.edx.org/courses/course-v1:MITx+8.370.3x+1T2018/course/">Part 3 (MITx: 8.370.3x)</a>, by Professor Peter Shor and Isaac Chuang from MIT. Complete recordings of all lectures, free of charge. Access to assignments requires purchase.</li>
         <li>Course website for MIT's <a target="_blank" href="http://web.mit.edu/2.111/www/index.htm">Quantum Computation (2.111)</a> by Prosessor Issac Chuang. The webpage includes complete problem sets with solutions.</li>
-
     </ul>
-
     <h2>Recommendations from experts</h2>
     <ul>
         <li><a target="_blank" href="http://www.mit.edu/~aram/advice/quantum.html">Where can I learn about quantum information?</a> By Aram Harrow, Associate Professor of Physics at MIT.</li>
-
         <li><a target="_blank" href="https://www.cs.umd.edu/~xwu/mini_lib.html">Mini-Library on Quantum Information and Computation. </a>By Xiaodi Wu, Assistant Professor of Computer Science at the University of Maryland.</li>
-
         <li><a target="_blank" href="https://csferrie.com/2019/09/07/entry-points-for-learning-quantum-computing/">Entry Points for Learning Quantum Computing. </a>By Chris Ferrie.</li>
-    </ul>
+    </ul> -->
 
 
     
