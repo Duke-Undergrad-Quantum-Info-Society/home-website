@@ -1,3 +1,4 @@
 # home-website
 
-This is the official website for Duke Undergraduate Quantum Information Society (DuQIS). www.duqis.org
+This is the official website for Duke Undergraduate Quantum Information Society (DuQIS). 
+https://www.duqis.org
