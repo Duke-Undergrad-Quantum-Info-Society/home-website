@@ -1,6 +1,7 @@
 body{margin-top:0px;}
 .team_member {
-    background: rgba(199,201,209,.09);
+    /* background: rgba(199,201,209,.09); */
+    background: #fff;
 	padding-bottom: 50px;
 	overflow: hidden;
 }
