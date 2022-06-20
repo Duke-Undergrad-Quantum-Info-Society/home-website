@@ -7,6 +7,7 @@ $(function () {
   bar += '<ul class="navbar-nav text-right">';
   bar += '<li id="index" class="nav-item"><a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a></li>';
   bar += '<li id="calendar" class="nav-item"><a class="nav-link" href="./calendar.html">Calendar</a></li>';
+   bar += '<li id="uchicago-hack" class="nav-item"><a class="nav-link" href="https://uncommonhacks.com/">UChicago X DuQIS</a></li>';
   bar += '<li id="event" class="nav-item"><a class="nav-link" href="./event.html">Events</a></li>';
   bar += '<li id="study" class="nav-item"><a class="nav-link" href="./study_guide.html">Study Guide</a></li>';
   bar += '<li id="archive" class="nav-item"><a class="nav-link" href="./archive/index.html">Archive</a></li>';
