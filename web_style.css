@@ -2,6 +2,23 @@ body {
     color:white;
     font: 1.3rem Inconsolata, monospace;
     background-color: rgb(10,10,100);
+
+    /*
+    @font-face {
+        font-family: BlurryPix;
+        src: url(blrrpixs016.ttf); 
+    }
+
+    @font-face {
+        font-family: BlurryPix;
+        src: url(blrrpixs016.ttf); 
+    }
+
+    font-family: BlurryPix;
+    */
+
+    
+    
 }
 
 #schedule {
@@ -34,5 +51,22 @@ li a:hover {
 
 li a:target {
     color:yellow;
+}
+
+#label{
+    color: chartreuse;
+}
+#label:hover {
+    color: yellow;
+}
+#nav {
+    border-bottom-style: solid;
+    border-bottom: yellow;
+}
+
+#navbar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
