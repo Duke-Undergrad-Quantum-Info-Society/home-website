@@ -1,7 +1,7 @@
 body {
     color:white;
     font: 1.3rem Inconsolata, monospace;
-    background-color: rgb(10,10,100);
+    background-color: rgb(9,1,105);
 
     /*
     @font-face {
@@ -76,7 +76,7 @@ li a:target {
     bottom: 0px;
     left: 0px;
     top: 10px;
-    background-color: rgb(10,10,100);
+    background-color: rgb(9,1,105);
     border-top: 3px solid yellow;
     line-height: 3px;
     margin-left: auto;
