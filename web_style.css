@@ -71,7 +71,7 @@ li a:target {
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
-    padding: 5px 0px 5px 0px;
+    padding: 1px 0px 1px 0px;
     cursor: pointer;
     transition: .2s;
     -webkit-transition: .2s;
