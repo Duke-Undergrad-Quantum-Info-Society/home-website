@@ -81,6 +81,13 @@ li a:target {
     line-height: 3px;
     margin-left: auto;
   }
+
+  a:link {
+    color:  chartreuse; 
+  }
+    a:visited {
+      color:yellow;
+    }
   /*
   .footer .col {
     width: 190px;
