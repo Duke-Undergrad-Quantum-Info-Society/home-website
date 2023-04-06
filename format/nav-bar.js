@@ -8,6 +8,7 @@ $(function () {
   bar += '<li id="index" class="nav-item"><a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a></li>';
   bar += '<li id="hackathon" class="nav-item"><a class="nav-link" href="main_page.html">Hackathon</a></li>';
   bar += '<li id="event" class="nav-item"><a class="nav-link" href="./event.html">Events</a></li>';
+  bar += '<li id="research" class="nav-item"><a class="nav-link" href="./research.html">Research Opportunities</a></li>';
   bar += '<li id="study" class="nav-item"><a class="nav-link" href="./study_guide.html">Study Guide</a></li>';
   bar += '<li id="archive" class="nav-item"><a class="nav-link" href="./archive/index.html">Archive</a></li>';
   bar += '<li id="contact" class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>';
